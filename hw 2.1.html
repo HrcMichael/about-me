@@ -1,0 +1,163 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title lang="RU" >Форма регистрации/Регистрация пользователя</title>
+        <meta name="description" content lang="RU"<p>HTML-формы являются элементами управления, которые применяются для сбора информации от посетителей веб-сайта. Веб-формы состоят из набора текстовых полей, кнопок, списков и других элементов управления, которые
+        активизируются щелчком мыши. Технически формы передают данные от пользователя удаленному серверу.
+        </head>
+    <body>
+    <h1 lang="RU">Форма регистрации</h1>
+    <fieldset>
+        <legend>
+            Основная информация
+        </legend>
+        Имя*<br>
+        <input placeholder="Введите ваше имя"><br>
+        Фамилия*<br>
+        <input placeholder="Введите вашу фамилию"><br>
+        Nickname*<br>
+        <input placeholder="Введите ваш nickname"><br>
+        Ваша дата рождения*<br>
+        <input type="date"><br>
+        Ваше время рождения*<br>
+        <input type="time"><br>
+        Ваш город*<br>
+        <select>
+            <option>Введите город</option>
+            <option>Черновцы</option>
+            <option>Днепр</option>
+            <option>Донецк</option>
+            <option>Ивано-Франковск</option>
+            <option>Каменец-Подольский</option>
+            <option>Харьков</option>
+            <option>Херсон</option>
+            <option>Киев</option>
+            <option>Кривой Рог</option>
+            <option>Луганск</option>
+            <option>Львов</option>
+            <option>Николаев</option>
+            <option>Одесса</option>
+            <option>Полтава</option>
+            <option>Сумы</option>
+            <option>Ужгород</option>
+            <option>Запорожье</option>
+            <option>Винница</option>
+            <option>Черкассы</option>
+            <option>Чернигов</option>
+            <option>Ильичевск</option>
+            <option>Луцк</option>
+            <option>Малехов</option>
+            <option>Микуличин</option>
+            <option>Ровно</option>
+            <option>Стрый</option>
+            <option>Великий Лес</option>
+            <option>Великая Омеляна</option>
+            <option>Ахтырка</option>
+            <option>Белогородка</option>
+            <option>Бердянск</option>
+            <option>Борисполь</option>
+            <option>Бояны</option>
+            <option>Бровары</option>
+            <option>Буковель</option>
+            <option>Бурлачья Балка</option>
+            <option>Верховина</option>
+            <option>Винники</option>
+            <option>Жденево</option>
+            <option>Житомир</option>
+            <option>Жовтневое</option>
+            <option>Затока</option>
+            <option>Каменица</option>
+            <option>Каролино-Бугаз</option>
+            <option>Кировоград</option>
+            <option>Коблево</option>
+            <option>Козин</option>
+            <option>Колоденка</option>
+            <option>Коропово</option>
+            <option>Кременчуг</option>
+            <option>Макеевка</option>
+            <option>Мукачево</option>
+            <option>Поляна</option>
+            <option>Славское</option>
+            <option>Тернополь</option>
+            <option>Трускавец</option>
+            <option>Хмельницкий</option>
+            <option>Чайковка</option>
+            <option>Чубинское</option>
+            <option>Шаян</option>
+            <option>Шешоры</option>
+            <option>Яремче</option>
+            <option>Петровское</option>
+            <option>Приморское</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Почта и пароль</legend>
+        Email*<br>
+        <input placeholder="Введите ваш email"><br>
+        Запасной Email*<br>
+        <input placeholder="Введите ваш email"><br>
+        Пароль*<br>
+        <input placeholder="Введите ваш пароль"><br>
+        Подтвердить пароль*<br>
+        <input placeholder="Введите ваш пароль"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Контактная информация</legend>
+        Телефон*<br>
+        <input placeholder="Введите ваш телефон"><br>
+        Дополнительный телефон<br>
+        <input placeholder="Введите ваш телефон"><br>
+        Skype<br>
+        <input placeholder="Введите ваш skype"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Уровень навыков</legend><br>
+        HTML<br>
+        <input type="range"><br>
+        CSS<br>
+        <input type="range"<br>
+    </fieldset>
+    <fieldset>
+        <legend>О себе</legend><br>
+        Расскажите о себе<br>
+        <textarea rows="8" cols="60" placeholder="Введите текст"></textarea><br>
+        Ваш пол<br>
+        <label><input name="Мужской" type="radio" value="Мужской">Мужской</label><br>
+        <label><input name="Мужской" type="radio" value="Женский">Женский</label><br>
+        <label><input name="Мужской" type="radio" value="Другое" checked>Другое</label><br>
+
+        Ваш любимый цвет<br>
+        <input type="color" value="#FFFF00"><br>
+        Вид занятости<br>
+        <label><input name="work full time" type="radio" value="Работаю full time">Работаю full time</label><br>
+        <label><input name="work full time" type="radio" value="Работаю part time">Работаю part time</label> <br>
+        <label><input name="work full time" type="radio" value="Freelance">Freelance</label><br>
+        <label><input name="work full time" type="radio" value="Временно не работаю">Временно не работаю</label> <br>
+        <label><input name="work full time" type="radio" value="Студент" checked>Студент</label><br>
+
+        Наличее домашних животных<br>
+        <label><input name="cat" type="radio" value="Котик">Котик</label><br>
+        <label><input name="cat" type="radio" value="Собачка">Собачка</label><br>
+        <label><input name="cat" type="radio" value="Птичка">Птичка</label><br>
+        <label><input name="cat" type="radio" value="Рыбка">Рыбка</label><br>
+        <label><input name="cat" type="radio" value="Другое" checked>Другое</label><br>
+        Добавить файл<br>
+        <input type="file" name="Выберите файл"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Изучаемое направление</legend><br>
+        Выберите напрвление из списка<br>
+        <select>
+            <option>Front-End</option>
+            <option>Java</option>
+            <option>PHP</option>
+            <option>Python</option>
+            <option>DevOps</option>
+            <option>Hi-tech</option>
+        </select>
+    </fieldset>
+
+    <button>Отправить</button>  <button>Очистить</button>
+    </body>
+
+    </html>
